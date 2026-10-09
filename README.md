@@ -74,13 +74,13 @@
 
 Входные данные: x = 5.25. Ожидаемый результат: 0.25.
 
-![Uploading image.png…]()
+<img width="553" height="655" alt="image" src="https://github.com/user-attachments/assets/1a8619ed-d276-4ecd-a02c-c2224eb59f2e" />
 
 
 Входные данные: x = -3.75. Ожидаемый результат: -0.75.
 
-[]{.image .placeholder original-image-src="image2.png"
-original-image-title="" width="3.68802in" height="4.36519in"}
+![Uploading image.png…]()
+
 
 Задача 3
 
