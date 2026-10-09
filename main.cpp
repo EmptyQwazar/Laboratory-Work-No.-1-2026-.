@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 
-// Çàäàíèå 1. Ìåòîäû
+// Ğ—Ğ°Ğ´Ğ°Ğ½Ğ¸Ğµ 1. ĞœĞµÑ‚Ğ¾Ğ´Ñ‹
 
 double fraction(double x) {
     return x - static_cast<int>(x);
@@ -27,7 +27,7 @@ bool isEqual(int a, int b, int c) {
     return a == b && b == c;
 }
 
-// Çàäàíèå 2. Óñëîâèÿ
+// Ğ—Ğ°Ğ´Ğ°Ğ½Ğ¸Ğµ 2. Ğ£ÑĞ»Ğ¾Ğ²Ğ¸Ñ
 
 int abs(int x) {
     return x < 0 ? -x : x;
@@ -53,18 +53,18 @@ int sum2(int x, int y) {
 
 std::string day(int x) {
     switch (x) {
-    case 1: return "Ïîíåäåëüíèê";
-    case 2: return "Âòîğíèê";
-    case 3: return "Ñğåäà";
-    case 4: return "×åòâåğã";
-    case 5: return "Ïÿòíèöà";
-    case 6: return "Ñóááîòà";
-    case 7: return "Âîñêğåñåíüå";
-    default: return "ıòî íå äåíü íåäåëè";
+    case 1: return "ĞŸĞ¾Ğ½ĞµĞ´ĞµĞ»ÑŒĞ½Ğ¸Ğº";
+    case 2: return "Ğ’Ñ‚Ğ¾Ñ€Ğ½Ğ¸Ğº";
+    case 3: return "Ğ¡Ñ€ĞµĞ´Ğ°";
+    case 4: return "Ğ§ĞµÑ‚Ğ²ĞµÑ€Ğ³";
+    case 5: return "ĞŸÑÑ‚Ğ½Ğ¸Ñ†Ğ°";
+    case 6: return "Ğ¡ÑƒĞ±Ğ±Ğ¾Ñ‚Ğ°";
+    case 7: return "Ğ’Ğ¾ÑĞºÑ€ĞµÑĞµĞ½ÑŒĞµ";
+    default: return "ÑÑ‚Ğ¾ Ğ½Ğµ Ğ´ĞµĞ½ÑŒ Ğ½ĞµĞ´ĞµĞ»Ğ¸";
     }
 }
 
-// Çàäàíèå 3. Öèêëû
+// Ğ—Ğ°Ğ´Ğ°Ğ½Ğ¸Ğµ 3. Ğ¦Ğ¸ĞºĞ»Ñ‹
 
 std::string listNums(int x) {
     std::string result;
@@ -115,7 +115,7 @@ void rightTriangle(int x) {
     }
 }
 
-// Çàäàíèå 4. Ìàññèâû 
+// Ğ—Ğ°Ğ´Ğ°Ğ½Ğ¸Ğµ 4. ĞœĞ°ÑÑĞ¸Ğ²Ñ‹ 
 
 int findFirst(int arr[], int x) {
     for (int i = 0; arr[i] != 0; ++i) {
@@ -136,33 +136,33 @@ int maxAbs(int arr[]) {
     return best;
 }
 
-// Ìåíş
+// ĞœĞµĞ½Ñ
 
 void printMenu() {
-    std::cout << std::endl << "=== Ìåíş ===" << std::endl
-        << "--- Çàäàíèå 1 ---" << std::endl
-        << " 1 - Fraction (äğîáíàÿ ÷àñòü)" << std::endl
-        << " 3 - CharToNum (öèôğà â ÷èñëî)" << std::endl
-        << " 5 - Is2Digits (äâóçíà÷íîå?)" << std::endl
-        << " 7 - IsInRange (â äèàïàçîíå?)" << std::endl
-        << " 9 - IsEqual (âñå ğàâíû?)" << std::endl
-        << "--- Çàäàíèå 2 ---" << std::endl
-        << "11 - Abs (ìîäóëü)" << std::endl
-        << "13 - Is35 (äåëèòñÿ íà 3 èëè 5, íî íå íà îáà)" << std::endl
-        << "15 - Max3 (ìàêñèìóì èç òğ¸õ)" << std::endl
-        << "17 - Sum2 (ñóììà ñ 20 â [10, 19])" << std::endl
-        << "19 - Day (äåíü íåäåëè)" << std::endl
-        << "--- Çàäàíèå 3 ---" << std::endl
-        << "21 - ListNums (÷èñëà îò 0 äî x)" << std::endl
-        << "23 - Chet (÷¸òíûå ÷èñëà)" << std::endl
-        << "25 - NumLen (äëèíà ÷èñëà)" << std::endl
-        << "27 - Square (êâàäğàò)" << std::endl
-        << "29 - RightTriangle (òğåóãîëüíèê)" << std::endl
-        << "--- Çàäàíèå 4 ---" << std::endl
-        << "31 - FindFirst (ïåğâîå âõîæäåíèå)" << std::endl
-        << "33 - MaxAbs (ìàêñèìóì ïî ìîäóëş)" << std::endl
-        << " 0 - Âûõîä" << std::endl
-        << "Âûáîğ: ";
+    std::cout << std::endl << "=== ĞœĞµĞ½Ñ ===" << std::endl
+        << "--- Ğ—Ğ°Ğ´Ğ°Ğ½Ğ¸Ğµ 1 ---" << std::endl
+        << " 1 - Fraction (Ğ´Ñ€Ğ¾Ğ±Ğ½Ğ°Ñ Ñ‡Ğ°ÑÑ‚ÑŒ)" << std::endl
+        << " 3 - CharToNum (Ñ†Ğ¸Ñ„Ñ€Ğ° Ğ² Ñ‡Ğ¸ÑĞ»Ğ¾)" << std::endl
+        << " 5 - Is2Digits (Ğ´Ğ²ÑƒĞ·Ğ½Ğ°Ñ‡Ğ½Ğ¾Ğµ?)" << std::endl
+        << " 7 - IsInRange (Ğ² Ğ´Ğ¸Ğ°Ğ¿Ğ°Ğ·Ğ¾Ğ½Ğµ?)" << std::endl
+        << " 9 - IsEqual (Ğ²ÑĞµ Ñ€Ğ°Ğ²Ğ½Ñ‹?)" << std::endl
+        << "--- Ğ—Ğ°Ğ´Ğ°Ğ½Ğ¸Ğµ 2 ---" << std::endl
+        << "11 - Abs (Ğ¼Ğ¾Ğ´ÑƒĞ»ÑŒ)" << std::endl
+        << "13 - Is35 (Ğ´ĞµĞ»Ğ¸Ñ‚ÑÑ Ğ½Ğ° 3 Ğ¸Ğ»Ğ¸ 5, Ğ½Ğ¾ Ğ½Ğµ Ğ½Ğ° Ğ¾Ğ±Ğ°)" << std::endl
+        << "15 - Max3 (Ğ¼Ğ°ĞºÑĞ¸Ğ¼ÑƒĞ¼ Ğ¸Ğ· Ñ‚Ñ€Ñ‘Ñ…)" << std::endl
+        << "17 - Sum2 (ÑÑƒĞ¼Ğ¼Ğ° Ñ 20 Ğ² [10, 19])" << std::endl
+        << "19 - Day (Ğ´ĞµĞ½ÑŒ Ğ½ĞµĞ´ĞµĞ»Ğ¸)" << std::endl
+        << "--- Ğ—Ğ°Ğ´Ğ°Ğ½Ğ¸Ğµ 3 ---" << std::endl
+        << "21 - ListNums (Ñ‡Ğ¸ÑĞ»Ğ° Ğ¾Ñ‚ 0 Ğ´Ğ¾ x)" << std::endl
+        << "23 - Chet (Ñ‡Ñ‘Ñ‚Ğ½Ñ‹Ğµ Ñ‡Ğ¸ÑĞ»Ğ°)" << std::endl
+        << "25 - NumLen (Ğ´Ğ»Ğ¸Ğ½Ğ° Ñ‡Ğ¸ÑĞ»Ğ°)" << std::endl
+        << "27 - Square (ĞºĞ²Ğ°Ğ´Ñ€Ğ°Ñ‚)" << std::endl
+        << "29 - RightTriangle (Ñ‚Ñ€ĞµÑƒĞ³Ğ¾Ğ»ÑŒĞ½Ğ¸Ğº)" << std::endl
+        << "--- Ğ—Ğ°Ğ´Ğ°Ğ½Ğ¸Ğµ 4 ---" << std::endl
+        << "31 - FindFirst (Ğ¿ĞµÑ€Ğ²Ğ¾Ğµ Ğ²Ñ…Ğ¾Ğ¶Ğ´ĞµĞ½Ğ¸Ğµ)" << std::endl
+        << "33 - MaxAbs (Ğ¼Ğ°ĞºÑĞ¸Ğ¼ÑƒĞ¼ Ğ¿Ğ¾ Ğ¼Ğ¾Ğ´ÑƒĞ»Ñ)" << std::endl
+        << " 0 - Ğ’Ñ‹Ñ…Ğ¾Ğ´" << std::endl
+        << "Ğ’Ñ‹Ğ±Ğ¾Ñ€: ";
 }
 
 int main() {
@@ -172,189 +172,189 @@ int main() {
     while (choice != 0) {
         printMenu();
 
-        // Ââîä âûáîğà ìåíş ñ ïğîâåğêîé
+        // Ğ’Ğ²Ğ¾Ğ´ Ğ²Ñ‹Ğ±Ğ¾Ñ€Ğ° Ğ¼ĞµĞ½Ñ Ñ Ğ¿Ñ€Ğ¾Ğ²ĞµÑ€ĞºĞ¾Ğ¹
         while (true) {
             if (std::cin >> choice) {
                 break;
             }
-            std::cout << "Îøèáêà: ââåäèòå ÷èñëî." << std::endl;
+            std::cout << "ĞÑˆĞ¸Ğ±ĞºĞ°: Ğ²Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾." << std::endl;
             std::cin.clear();
             std::cin.ignore(100, '\n');
-            std::cout << "Âûáîğ: ";
+            std::cout << "Ğ’Ñ‹Ğ±Ğ¾Ñ€: ";
         }
 
         switch (choice) {
-            // Çàäàíèå 1 
+            // Ğ—Ğ°Ğ´Ğ°Ğ½Ğ¸Ğµ 1 
         case 1: {
             double x;
             while (true) {
-                std::cout << "Ââåäèòå x: ";
+                std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ x: ";
                 if (std::cin >> x) break;
-                std::cout << "Îøèáêà: ââåäèòå ÷èñëî." << std::endl;
+                std::cout << "ĞÑˆĞ¸Ğ±ĞºĞ°: Ğ²Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾." << std::endl;
                 std::cin.clear();
                 std::cin.ignore(100, '\n');
             }
-            std::cout << "Ğåçóëüòàò: " << fraction(x) << std::endl;
+            std::cout << "Ğ ĞµĞ·ÑƒĞ»ÑŒÑ‚Ğ°Ñ‚: " << fraction(x) << std::endl;
             break;
         }
         case 3: {
             char c;
             while (true) {
-                std::cout << "Ââåäèòå öèôğó: ";
+                std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ†Ğ¸Ñ„Ñ€Ñƒ: ";
                 if (std::cin >> c && c >= '0' && c <= '9') break;
-                std::cout << "Îøèáêà: ââåäèòå öèôğó îò '0' äî '9'." << std::endl;
+                std::cout << "ĞÑˆĞ¸Ğ±ĞºĞ°: Ğ²Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ†Ğ¸Ñ„Ñ€Ñƒ Ğ¾Ñ‚ '0' Ğ´Ğ¾ '9'." << std::endl;
                 std::cin.clear();
                 std::cin.ignore(100, '\n');
             }
-            std::cout << "Ğåçóëüòàò: " << charToNum(c) << std::endl;
+            std::cout << "Ğ ĞµĞ·ÑƒĞ»ÑŒÑ‚Ğ°Ñ‚: " << charToNum(c) << std::endl;
             break;
         }
         case 5: {
             int x;
             while (true) {
-                std::cout << "Ââåäèòå x: ";
+                std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ x: ";
                 if (std::cin >> x) break;
-                std::cout << "Îøèáêà: ââåäèòå ÷èñëî." << std::endl;
+                std::cout << "ĞÑˆĞ¸Ğ±ĞºĞ°: Ğ²Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾." << std::endl;
                 std::cin.clear();
                 std::cin.ignore(100, '\n');
             }
-            std::cout << "Ğåçóëüòàò: " << (is2Digits(x) ? "true" : "false")
+            std::cout << "Ğ ĞµĞ·ÑƒĞ»ÑŒÑ‚Ğ°Ñ‚: " << (is2Digits(x) ? "true" : "false")
                 << std::endl;
             break;
         }
         case 7: {
             int a, b, num;
             while (true) {
-                std::cout << "Ââåäèòå a, b, num: ";
+                std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ a, b, num: ";
                 if (std::cin >> a >> b >> num) break;
-                std::cout << "Îøèáêà: ââåäèòå òğè ÷èñëà." << std::endl;
+                std::cout << "ĞÑˆĞ¸Ğ±ĞºĞ°: Ğ²Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‚Ñ€Ğ¸ Ñ‡Ğ¸ÑĞ»Ğ°." << std::endl;
                 std::cin.clear();
                 std::cin.ignore(100, '\n');
             }
-            std::cout << "Ğåçóëüòàò: " << (isInRange(a, b, num) ? "true" : "false")
+            std::cout << "Ğ ĞµĞ·ÑƒĞ»ÑŒÑ‚Ğ°Ñ‚: " << (isInRange(a, b, num) ? "true" : "false")
                 << std::endl;
             break;
         }
         case 9: {
             int a, b, c;
             while (true) {
-                std::cout << "Ââåäèòå a, b, c: ";
+                std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ a, b, c: ";
                 if (std::cin >> a >> b >> c) break;
-                std::cout << "Îøèáêà: ââåäèòå òğè ÷èñëà." << std::endl;
+                std::cout << "ĞÑˆĞ¸Ğ±ĞºĞ°: Ğ²Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‚Ñ€Ğ¸ Ñ‡Ğ¸ÑĞ»Ğ°." << std::endl;
                 std::cin.clear();
                 std::cin.ignore(100, '\n');
             }
-            std::cout << "Ğåçóëüòàò: " << (isEqual(a, b, c) ? "true" : "false")
+            std::cout << "Ğ ĞµĞ·ÑƒĞ»ÑŒÑ‚Ğ°Ñ‚: " << (isEqual(a, b, c) ? "true" : "false")
                 << std::endl;
             break;
         }
 
-              //  Çàäàíèå 2
+              //  Ğ—Ğ°Ğ´Ğ°Ğ½Ğ¸Ğµ 2
         case 11: {
             int x;
             while (true) {
-                std::cout << "Ââåäèòå x: ";
+                std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ x: ";
                 if (std::cin >> x) break;
-                std::cout << "Îøèáêà: ââåäèòå ÷èñëî." << std::endl;
+                std::cout << "ĞÑˆĞ¸Ğ±ĞºĞ°: Ğ²Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾." << std::endl;
                 std::cin.clear();
                 std::cin.ignore(100, '\n');
             }
-            std::cout << "Ğåçóëüòàò: " << abs(x) << std::endl;
+            std::cout << "Ğ ĞµĞ·ÑƒĞ»ÑŒÑ‚Ğ°Ñ‚: " << abs(x) << std::endl;
             break;
         }
         case 13: {
             int x;
             while (true) {
-                std::cout << "Ââåäèòå x: ";
+                std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ x: ";
                 if (std::cin >> x) break;
-                std::cout << "Îøèáêà: ââåäèòå ÷èñëî." << std::endl;
+                std::cout << "ĞÑˆĞ¸Ğ±ĞºĞ°: Ğ²Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾." << std::endl;
                 std::cin.clear();
                 std::cin.ignore(100, '\n');
             }
-            std::cout << "Ğåçóëüòàò: " << (is35(x) ? "true" : "false")
+            std::cout << "Ğ ĞµĞ·ÑƒĞ»ÑŒÑ‚Ğ°Ñ‚: " << (is35(x) ? "true" : "false")
                 << std::endl;
             break;
         }
         case 15: {
             int x, y, z;
             while (true) {
-                std::cout << "Ââåäèòå x, y, z: ";
+                std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ x, y, z: ";
                 if (std::cin >> x >> y >> z) break;
-                std::cout << "Îøèáêà: ââåäèòå òğè ÷èñëà." << std::endl;
+                std::cout << "ĞÑˆĞ¸Ğ±ĞºĞ°: Ğ²Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‚Ñ€Ğ¸ Ñ‡Ğ¸ÑĞ»Ğ°." << std::endl;
                 std::cin.clear();
                 std::cin.ignore(100, '\n');
             }
-            std::cout << "Ğåçóëüòàò: " << max3(x, y, z) << std::endl;
+            std::cout << "Ğ ĞµĞ·ÑƒĞ»ÑŒÑ‚Ğ°Ñ‚: " << max3(x, y, z) << std::endl;
             break;
         }
         case 17: {
             int x, y;
             while (true) {
-                std::cout << "Ââåäèòå x, y: ";
+                std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ x, y: ";
                 if (std::cin >> x >> y) break;
-                std::cout << "Îøèáêà: ââåäèòå äâà ÷èñëà." << std::endl;
+                std::cout << "ĞÑˆĞ¸Ğ±ĞºĞ°: Ğ²Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ´Ğ²Ğ° Ñ‡Ğ¸ÑĞ»Ğ°." << std::endl;
                 std::cin.clear();
                 std::cin.ignore(100, '\n');
             }
-            std::cout << "Ğåçóëüòàò: " << sum2(x, y) << std::endl;
+            std::cout << "Ğ ĞµĞ·ÑƒĞ»ÑŒÑ‚Ğ°Ñ‚: " << sum2(x, y) << std::endl;
             break;
         }
         case 19: {
             int x;
             while (true) {
-                std::cout << "Ââåäèòå äåíü íåäåëè (1-7): ";
+                std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ´ĞµĞ½ÑŒ Ğ½ĞµĞ´ĞµĞ»Ğ¸ (1-7): ";
                 if (std::cin >> x && x >= 1 && x <= 7) break;
-                std::cout << "Îøèáêà: ââåäèòå ÷èñëî îò 1 äî 7." << std::endl;
+                std::cout << "ĞÑˆĞ¸Ğ±ĞºĞ°: Ğ²Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾ Ğ¾Ñ‚ 1 Ğ´Ğ¾ 7." << std::endl;
                 std::cin.clear();
                 std::cin.ignore(100, '\n');
             }
-            std::cout << "Ğåçóëüòàò: " << day(x) << std::endl;
+            std::cout << "Ğ ĞµĞ·ÑƒĞ»ÑŒÑ‚Ğ°Ñ‚: " << day(x) << std::endl;
             break;
         }
 
-        // Çàäàíèå 3 
+        // Ğ—Ğ°Ğ´Ğ°Ğ½Ğ¸Ğµ 3 
         case 21: {
             int x;
             while (true) {
-                std::cout << "Ââåäèòå x: ";
+                std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ x: ";
                 if (std::cin >> x && x >= 0) break;
-                std::cout << "Îøèáêà: ââåäèòå ÷èñëî îò 0 äî 100." << std::endl;
+                std::cout << "ĞÑˆĞ¸Ğ±ĞºĞ°: Ğ²Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾ Ğ¾Ñ‚ 0 Ğ´Ğ¾ 100." << std::endl;
                 std::cin.clear();
                 std::cin.ignore(100, '\n');
             }
-            std::cout << "Ğåçóëüòàò: " << listNums(x) << std::endl;
+            std::cout << "Ğ ĞµĞ·ÑƒĞ»ÑŒÑ‚Ğ°Ñ‚: " << listNums(x) << std::endl;
             break;
         }
         case 23: {
             int x;
             while (true) {
-                std::cout << "Ââåäèòå x: ";
+                std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ x: ";
                 if (std::cin >> x && x >= 0) break;
-                std::cout << "Îøèáêà: ââåäèòå ÷èñëî îò 0 äî 100." << std::endl;
+                std::cout << "ĞÑˆĞ¸Ğ±ĞºĞ°: Ğ²Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾ Ğ¾Ñ‚ 0 Ğ´Ğ¾ 100." << std::endl;
                 std::cin.clear();
                 std::cin.ignore(100, '\n');
             }
-            std::cout << "Ğåçóëüòàò: " << chet(x) << std::endl;
+            std::cout << "Ğ ĞµĞ·ÑƒĞ»ÑŒÑ‚Ğ°Ñ‚: " << chet(x) << std::endl;
             break;
         }
         case 25: {
             long x;
             while (true) {
-                std::cout << "Ââåäèòå ÷èñëî: ";
+                std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾: ";
                 if (std::cin >> x) break;
-                std::cout << "Îøèáêà: ââåäèòå ÷èñëî." << std::endl;
+                std::cout << "ĞÑˆĞ¸Ğ±ĞºĞ°: Ğ²Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾." << std::endl;
                 std::cin.clear();
                 std::cin.ignore(100, '\n');
             }
-            std::cout << "Ğåçóëüòàò: " << numLen(x) << std::endl;
+            std::cout << "Ğ ĞµĞ·ÑƒĞ»ÑŒÑ‚Ğ°Ñ‚: " << numLen(x) << std::endl;
             break;
         }
         case 27: {
             int x;
             while (true) {
-                std::cout << "Ââåäèòå ñòîğîíó êâàäğàòà: ";
+                std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ ÑÑ‚Ğ¾Ñ€Ğ¾Ğ½Ñƒ ĞºĞ²Ğ°Ğ´Ñ€Ğ°Ñ‚Ğ°: ";
                 if (std::cin >> x && x >= 1) break;
-                std::cout << "Îøèáêà: ââåäèòå ÷èñëî îò 1 äî 20." << std::endl;
+                std::cout << "ĞÑˆĞ¸Ğ±ĞºĞ°: Ğ²Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾ Ğ¾Ñ‚ 1 Ğ´Ğ¾ 20." << std::endl;
                 std::cin.clear();
                 std::cin.ignore(100, '\n');
             }
@@ -364,9 +364,9 @@ int main() {
         case 29: {
             int x;
             while (true) {
-                std::cout << "Ââåäèòå âûñîòó: ";
+                std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ²Ñ‹ÑĞ¾Ñ‚Ñƒ: ";
                 if (std::cin >> x && x >= 1) break;
-                std::cout << "Îøèáêà: ââåäèòå ÷èñëî îò 1 äî 20." << std::endl;
+                std::cout << "ĞÑˆĞ¸Ğ±ĞºĞ°: Ğ²Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾ Ğ¾Ñ‚ 1 Ğ´Ğ¾ 20." << std::endl;
                 std::cin.clear();
                 std::cin.ignore(100, '\n');
             }
@@ -374,21 +374,21 @@ int main() {
             break;
         }
 
-        // Çàäàíèå 4
+        // Ğ—Ğ°Ğ´Ğ°Ğ½Ğ¸Ğµ 4
         case 31: {
             int n;
-            std::cout << "Ñêîëüêî ÷èñåë? ";
+            std::cout << "Ğ¡ĞºĞ¾Ğ»ÑŒĞºĞ¾ Ñ‡Ğ¸ÑĞµĞ»? ";
             while (!(std::cin >> n) || n < 0 || n > 99) {
-                std::cout << "Îøèáêà: ââåäèòå ÷èñëî îò 0 äî 99." << std::endl;
+                std::cout << "ĞÑˆĞ¸Ğ±ĞºĞ°: Ğ²Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾ Ğ¾Ñ‚ 0 Ğ´Ğ¾ 99." << std::endl;
                 std::cin.clear();
                 std::cin.ignore(100, '\n');
             }
 
             int arr[100];
-            std::cout << "Ââåäèòå " << n << " ÷èñåë: ";
+            std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ " << n << " Ñ‡Ğ¸ÑĞµĞ»: ";
             for (int i = 0; i < n; ++i) {
                 while (!(std::cin >> arr[i])) {
-                    std::cout << "Îøèáêà: ââåäèòå ÷èñëî." << std::endl;
+                    std::cout << "ĞÑˆĞ¸Ğ±ĞºĞ°: Ğ²Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾." << std::endl;
                     std::cin.clear();
                     std::cin.ignore(100, '\n');
                 }
@@ -396,46 +396,46 @@ int main() {
             arr[n] = 0;
 
             int x;
-            std::cout << "×òî èñêàòü? ";
+            std::cout << "Ğ§Ñ‚Ğ¾ Ğ¸ÑĞºĞ°Ñ‚ÑŒ? ";
             while (!(std::cin >> x)) {
-                std::cout << "Îøèáêà: ââåäèòå ÷èñëî." << std::endl;
+                std::cout << "ĞÑˆĞ¸Ğ±ĞºĞ°: Ğ²Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾." << std::endl;
                 std::cin.clear();
                 std::cin.ignore(100, '\n');
             }
 
-            std::cout << "Èíäåêñ: " << findFirst(arr, x) << std::endl;
+            std::cout << "Ğ˜Ğ½Ğ´ĞµĞºÑ: " << findFirst(arr, x) << std::endl;
             break;
         }
         case 33: {
             int n;
-            std::cout << "Ñêîëüêî ÷èñåë? ";
+            std::cout << "Ğ¡ĞºĞ¾Ğ»ÑŒĞºĞ¾ Ñ‡Ğ¸ÑĞµĞ»? ";
             while (!(std::cin >> n) || n < 1 || n > 99) {
-                std::cout << "Îøèáêà: ââåäèòå ÷èñëî îò 1 äî 99." << std::endl;
+                std::cout << "ĞÑˆĞ¸Ğ±ĞºĞ°: Ğ²Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾ Ğ¾Ñ‚ 1 Ğ´Ğ¾ 99." << std::endl;
                 std::cin.clear();
                 std::cin.ignore(100, '\n');
             }
 
             int arr[100];
-            std::cout << "Ââåäèòå " << n << " ÷èñåë: ";
+            std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ " << n << " Ñ‡Ğ¸ÑĞµĞ»: ";
             for (int i = 0; i < n; ++i) {
                 while (!(std::cin >> arr[i])) {
-                    std::cout << "Îøèáêà: ââåäèòå ÷èñëî." << std::endl;
+                    std::cout << "ĞÑˆĞ¸Ğ±ĞºĞ°: Ğ²Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾." << std::endl;
                     std::cin.clear();
                     std::cin.ignore(100, '\n');
                 }
             }
             arr[n] = 0;
 
-            std::cout << "Ğåçóëüòàò: " << maxAbs(arr) << std::endl;
+            std::cout << "Ğ ĞµĞ·ÑƒĞ»ÑŒÑ‚Ğ°Ñ‚: " << maxAbs(arr) << std::endl;
             break;
         }
 
         case 0:
-            std::cout << "Âûõîä." << std::endl;
+            std::cout << "Ğ’Ñ‹Ñ…Ğ¾Ğ´." << std::endl;
             break;
 
         default:
-            std::cout << "Íåâåğíûé ïóíêò ìåíş." << std::endl;
+            std::cout << "ĞĞµĞ²ĞµÑ€Ğ½Ñ‹Ğ¹ Ğ¿ÑƒĞ½ĞºÑ‚ Ğ¼ĞµĞ½Ñ." << std::endl;
             break;
         }
     }
