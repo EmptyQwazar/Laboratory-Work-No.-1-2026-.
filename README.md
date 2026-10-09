@@ -74,8 +74,8 @@
 
 Входные данные: x = 5.25. Ожидаемый результат: 0.25.
 
-[]{.image .placeholder original-image-src="image1.png"
-original-image-title="" width="3.6776in" height="4.3131in"}
+![Uploading image.png…]()
+
 
 Входные данные: x = -3.75. Ожидаемый результат: -0.75.
 
