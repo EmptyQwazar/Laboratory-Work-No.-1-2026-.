@@ -1,46 +1,4 @@
 Лабораторная работа №1 студента ПГНИУ, ИКНТ, 2 курс, Язык программирования С++, группа ЛА3(ИТ-7,8), Антипин Дмитрий Константинович.
-[Otchet_po_Laboratornoy_rabote_1_LA3_Antipin_Dmitriy_Konstantinovich.md](https://github.com/user-attachments/files/33247549/Otchet_po_Laboratornoy_rabote_1_LA3_Antipin_Dmitriy_Konstantinovich.md)
-+----------------------------------+----------------------------------+
-| МИНОБРНАУКИ РОССИИ               |                                  |
-+----------------------------------+----------------------------------+
-| Федеральное государственное      |                                  |
-| автономное                       |                                  |
-|                                  |                                  |
-| образовательное учреждение       |                                  |
-| высшего образования              |                                  |
-|                                  |                                  |
-| «Пермский государственный        |                                  |
-| национальный                     |                                  |
-|                                  |                                  |
-| исследовательский университет»   |                                  |
-+----------------------------------+----------------------------------+
-|                                  | Институт компьютерных наук и     |
-|                                  | технологий                       |
-+----------------------------------+----------------------------------+
-| **ОТЧЁТ**                        |                                  |
-|                                  |                                  |
-| по лабораторной работе №1        |                                  |
-|                                  |                                  |
-| по дисциплине «Языки             |                                  |
-| программирования C++»            |                                  |
-|                                  |                                  |
-| Вариант -- нечетный.             |                                  |
-+----------------------------------+----------------------------------+
-|                                  | Работу выполнил                  |
-|                                  |                                  |
-|                                  | студент группы ИТ-7,8-2025 1     |
-|                                  | курса                            |
-|                                  |                                  |
-|                                  | Антипин Дмитрий Константинович   |
-+----------------------------------+----------------------------------+
-| Работу проверила                 |                                  |
-|                                  |                                  |
-| Ракина Валерия Денисовна         |                                  |
-+----------------------------------+----------------------------------+
-| []{#anchor}                      |                                  |
-|                                  |                                  |
-| Пермь 2026                       |                                  |
-+----------------------------------+----------------------------------+
 
 Задание 1
 
@@ -79,7 +37,7 @@
 
 Входные данные: x = -3.75. Ожидаемый результат: -0.75.
 
-![Uploading image.png…]()
+<img width="553" height="655" alt="image" src="https://github.com/user-attachments/assets/9244a601-d3e9-42dd-9a61-ca66513cbcd3" />
 
 
 Задача 3
@@ -112,8 +70,8 @@
 
 Входные данные: x = \'3\'. Ожидаемый результат: 3.
 
-[]{.image .placeholder original-image-src="image3.png"
-original-image-title="" width="3.68802in" height="4.32352in"}
+<img width="553" height="648" alt="image" src="https://github.com/user-attachments/assets/7a17c255-55b4-4f6a-8044-94383076f7d9" />
+
 
 Задача 5
 
@@ -144,18 +102,18 @@ original-image-title="" width="3.68802in" height="4.32352in"}
 
 Входные данные: x = 32. Ожидаемый результат: true.
 
-[]{.image .placeholder original-image-src="image4.png"
-original-image-title="" width="3.68802in" height="4.37561in"}
+<img width="553" height="656" alt="image" src="https://github.com/user-attachments/assets/50d02b1e-ea53-478f-bb1b-09ad6dfa12c4" />
+
 
 Входные данные: x = 516. Ожидаемый результат: false.
 
-[]{.image .placeholder original-image-src="image5.png"
-original-image-title="" width="3.76094in" height="4.35477in"}
+<img width="564" height="653" alt="image" src="https://github.com/user-attachments/assets/e9fa70e9-8873-41e6-8ec1-e7b2624bd4c0" />
+
 
 Входные данные: x = -45. Ожидаемый результат: true.
 
-[]{.image .placeholder original-image-src="image6.png"
-original-image-title="" width="3.68802in" height="4.33394in"}
+<img width="553" height="650" alt="image" src="https://github.com/user-attachments/assets/26dd5046-4523-49cb-9ffa-fe4bf31b6ff7" />
+
 
 Задача 7
 
@@ -187,14 +145,17 @@ num);. Функция принимает левую и правую границ
 Тестирование
 
 Входные данные: a = 5, b = 1, num = 3. Ожидаемый результат: true.
+<img width="556" height="705" alt="image" src="https://github.com/user-attachments/assets/dcc325f6-f8aa-4315-ae56-1f79263c1c0a" />
 
 Входные данные: a = 2, b = 15, num = 33. Ожидаемый результат: false.
 
-[]{.image .placeholder original-image-src="image8.png"
-original-image-title="" width="3.71927in" height="4.71941in"}
+<img width="556" height="705" alt="image" src="https://github.com/user-attachments/assets/8e19c207-e8df-4be4-87eb-65f9403b1615" />
+
 
 Входные данные: a = 1, b = 10, num = 10. Ожидаемый результат: true
 (граница включена).
+<img width="564" height="719" alt="image" src="https://github.com/user-attachments/assets/57c95456-7b0f-47de-ada1-d54068e91008" />
+
 
 Задача 9
 
@@ -223,13 +184,13 @@ original-image-title="" width="3.71927in" height="4.71941in"}
 
 Входные данные: a = 3, b = 3, c = 3. Ожидаемый результат: true.
 
-[]{.image .placeholder original-image-src="image10.png"
-original-image-title="" width="3.7401in" height="4.74024in"}
+<img width="561" height="711" alt="image" src="https://github.com/user-attachments/assets/adcc2037-eed3-4d33-8727-6ff433aa2787" />
+
 
 Входные данные: a = 2, b = 15, c = 2. Ожидаемый результат: false.
 
-[]{.image .placeholder original-image-src="image11.png"
-original-image-title="" width="3.71927in" height="4.71941in"}
+<img width="558" height="708" alt="image" src="https://github.com/user-attachments/assets/e9bf47e6-1cfd-4cb4-ab4b-f5b4f24f4fa3" />
+
 
 Задание 2
 
@@ -258,13 +219,13 @@ original-image-title="" width="3.71927in" height="4.71941in"}
 
 Входные данные: x = 5. Ожидаемый результат: 5.
 
-[]{.image .placeholder original-image-src="image12.png"
-original-image-title="" width="3.69843in" height="4.35477in"}
+<img width="555" height="653" alt="image" src="https://github.com/user-attachments/assets/143915d3-7ccd-4d54-93a0-75fdfe978bde" />
+
 
 Входные данные: x = -3. Ожидаемый результат: 3.
 
-[]{.image .placeholder original-image-src="image13.png"
-original-image-title="" width="3.75052in" height="4.35477in"}
+<img width="563" height="653" alt="image" src="https://github.com/user-attachments/assets/68eafcf2-90e6-4fa9-aafc-ca715625a20b" />
+
 
 Задача 3
 
@@ -300,19 +261,19 @@ x делится нацело на 3 или 5. При этом, если оно 
 
 Входные данные: x = 5. Ожидаемый результат: true.
 
-[]{.image .placeholder original-image-src="image14.png"
-original-image-title="" width="3.70885in" height="4.29227in"}
+<img width="556" height="644" alt="image" src="https://github.com/user-attachments/assets/842ac715-d8df-41c6-9546-cf9f5a49b494" />
+
 
 Входные данные: x = 8. Ожидаемый результат: false.
 
-[]{.image .placeholder original-image-src="image15.png"
-original-image-title="" width="3.64634in" height="4.34436in"}
+<img width="547" height="652" alt="image" src="https://github.com/user-attachments/assets/c3dbee5e-2e97-47c4-be30-a3349bf56ad3" />
+
 
 Входные данные: x = 15. Ожидаемый результат: false (делится и на 3, и на
 5).
 
-[]{.image .placeholder original-image-src="image16.png"
-original-image-title="" width="3.7401in" height="4.38603in"}
+<img width="561" height="658" alt="image" src="https://github.com/user-attachments/assets/48e0778f-bfa3-4b7a-9545-79e332175772" />
+
 
 Задача 5
 
@@ -342,13 +303,13 @@ z);. Необходимо реализовать функцию таким об�
 
 Входные данные: x = 5, y = 7, z = 7. Ожидаемый результат: 7.
 
-[]{.image .placeholder original-image-src="image17.png"
-original-image-title="" width="3.69843in" height="4.63606in"}
+<img width="555" height="695" alt="image" src="https://github.com/user-attachments/assets/b4972503-e905-468f-85c6-bb2839108ba3" />
+
 
 Входные данные: x = 8, y = -1, z = 4. Ожидаемый результат: 8.
 
-[]{.image .placeholder original-image-src="image18.png"
-original-image-title="" width="3.70885in" height="4.66732in"}
+<img width="556" height="700" alt="image" src="https://github.com/user-attachments/assets/9b04be2b-d6a5-41ba-8ec4-e2fd24d1d27b" />
+
 
 Задача 7
 
@@ -377,22 +338,22 @@ return 20.
 
 Входные данные: x = 5, y = 7. Ожидаемый результат: 20.
 
+
 Входные данные: x = 8, y = -1. Ожидаемый результат: 7.
 
-[]{.image .placeholder original-image-src="image19.png"
-original-image-title="" width="3.71927in" height="4.47979in"}
+<img width="558" height="672" alt="image" src="https://github.com/user-attachments/assets/b445b57f-7272-4f6a-ad84-e2a8944d637c" />
+
 
 Входные данные: x = 10, y = 10. Ожидаемый результат: 20 (сумма 20 не
 входит в диапазон \[10, 19\], возвращается 20 - случайное совпадение с
 константой).
 
-[]{.image .placeholder original-image-src="image20.png"
-original-image-title="" width="3.71927in" height="4.5423in"}
+<img width="558" height="681" alt="image" src="https://github.com/user-attachments/assets/f70dde7b-6587-4513-abaf-2a845cde7dd6" />
+
 
 Входные данные: x = 5, y = 15. Ожидаемый результат: 20.
 
-[]{.image .placeholder original-image-src="image21.png"
-original-image-title="" width="3.64634in" height="4.46937in"}
+<img width="547" height="670" alt="image" src="https://github.com/user-attachments/assets/3d8888ee-0529-455c-a54a-2bd88f2236a8" />
 
 Задача 9
 
@@ -444,18 +405,18 @@ default: return \"это не день недели\";
 
 Входные данные: x = 5. Ожидаемый результат: \"пятница\".
 
-[]{.image .placeholder original-image-src="image22.png"
-original-image-title="" width="3.71927in" height="4.32352in"}
+<img width="558" height="648" alt="image" src="https://github.com/user-attachments/assets/28fe96f8-de49-4645-ac47-87c8786a0ddd" />
+
 
 Входные данные: x = 1. Ожидаемый результат: \"понедельник\".
 
-[]{.image .placeholder original-image-src="image23.png"
-original-image-title="" width="3.76094in" height="4.33394in"}
+<img width="564" height="650" alt="image" src="https://github.com/user-attachments/assets/6eaf33f1-d323-49d8-995a-201e5a27521f" />
+
 
 Входные данные: x = 8. Ожидаемый результат: \"это не день недели\".
 
-[]{.image .placeholder original-image-src="image24.png"
-original-image-title="" width="3.75052in" height="4.56314in"}
+<img width="563" height="684" alt="image" src="https://github.com/user-attachments/assets/255c318e-e812-4e2a-a3f8-7ffc848d4241" />
+
 
 Задание 3
 
@@ -493,13 +454,12 @@ if (i != x) result += \' \';
 
 Входные данные: x = 5. Ожидаемый результат: \"0 1 2 3 4 5\".
 
-[]{.image .placeholder original-image-src="image25.png"
-original-image-title="" width="3.70885in" height="4.34436in"}
+<img width="556" height="652" alt="image" src="https://github.com/user-attachments/assets/760e7632-894c-4b2f-9731-c7b82b70793b" />
+
 
 Входные данные: x = 0. Ожидаемый результат: \"0\".
 
-[]{.image .placeholder original-image-src="image26.png"
-original-image-title="" width="3.69843in" height="4.34436in"}
+<img width="555" height="652" alt="image" src="https://github.com/user-attachments/assets/7b8b81be-56e2-42de-a33f-ba9c831560d8" />
 
 Задача 3
 
@@ -538,13 +498,15 @@ if (i + 2 \<= x) result += \' \';
 
 Входные данные: x = 9. Ожидаемый результат: \"0 2 4 6 8\".
 
-[]{.image .placeholder original-image-src="image27.png"
-original-image-title="" width="3.71927in" height="4.35477in"}
+<img width="558" height="653" alt="image" src="https://github.com/user-attachments/assets/18aef29a-4ef6-4182-a0ae-b0c61314cf9e" />
+
+
 
 Входные данные: x = 0. Ожидаемый результат: \"0\".
 
-[]{.image .placeholder original-image-src="image28.png"
-original-image-title="" width="3.68802in" height="4.33394in"}
+<img width="553" height="650" alt="image" src="https://github.com/user-attachments/assets/7053d9f8-f5be-43fa-b8a6-e6da448348fd" />
+
+
 
 Задача 5
 
@@ -585,18 +547,19 @@ original-image-title="" width="3.68802in" height="4.33394in"}
 
 Входные данные: x = 12567. Ожидаемый результат: 5.
 
-[]{.image .placeholder original-image-src="image29.png"
-original-image-title="" width="3.68802in" height="4.33394in"}
+<img width="553" height="650" alt="image" src="https://github.com/user-attachments/assets/6b2bd747-e048-4bd4-ba67-dff890e9fa78" />
+
+
 
 Входные данные: x = 0. Ожидаемый результат: 1.
 
-[]{.image .placeholder original-image-src="image30.png"
-original-image-title="" width="3.71927in" height="4.32352in"}
+<img width="558" height="648" alt="image" src="https://github.com/user-attachments/assets/4b22792a-a45c-4fd7-84d0-3b48a5e4c9c3" />
+
 
 Входные данные: x = -42. Ожидаемый результат: 2.
 
-[]{.image .placeholder original-image-src="image31.png"
-original-image-title="" width="3.65676in" height="4.36519in"}
+<img width="548" height="655" alt="image" src="https://github.com/user-attachments/assets/6f4db33d-a467-4c71-9a52-761c7dd63ced" />
+
 
 Задача 7
 
@@ -650,8 +613,8 @@ std::cout \<\< std::endl;
 
 Входные данные: x = 4. Ожидаемый результат: квадрат 4×4.
 
-[]{.image .placeholder original-image-src="image32.png"
-original-image-title="" width="3.71927in" height="4.82359in"}
+<img width="558" height="723" alt="image" src="https://github.com/user-attachments/assets/6e5dda48-24d7-4ab6-b8f1-be56db6b5467" />
+
 
 Задача 9
 
@@ -712,8 +675,8 @@ std::cout \<\< std::endl;
 
 Входные данные: x = 4. Ожидаемый результат:
 
-[]{.image .placeholder original-image-src="image33.png"
-original-image-title="" width="3.70885in" height="4.79234in"}
+<img width="556" height="719" alt="image" src="https://github.com/user-attachments/assets/ce41fdb7-1087-4e3c-b363-4f07c7996b1f" />
+
 
 Задание 4
 
@@ -753,12 +716,15 @@ return -1;
 
 Входные данные: массив \[1, 2, 3, 4, 2, 2, 5\], x = 2. Ожидаемый
 результат: 1.
+<img width="550" height="849" alt="image" src="https://github.com/user-attachments/assets/2005401e-004c-44be-8064-a2e69c26c49c" />
+
 
 Входные данные: массив \[1, 2, 3, 4, 2, 2, 5\], x = 99. Ожидаемый
 результат: -1.
 
-[]{.image .placeholder original-image-src="image35.png"
-original-image-title="" width="3.72969in" height="5.65704in"}
+
+
+
 
 Задача 3
 
@@ -803,11 +769,12 @@ return best;
 
 Входные данные: массив \[1, -2, -7, 4, 2, 2, 5\]. Ожидаемый результат:
 -7.
+<img width="555" height="833" alt="image" src="https://github.com/user-attachments/assets/15fbad7d-0cca-430c-b221-d99ade9416c0" />
+
 
 Входные данные: массив \[-3, -5, -1\]. Ожидаемый результат: -5.
 
-[]{.image .placeholder original-image-src="image37.png"
-original-image-title="" width="3.69843in" height="4.80275in"}
+<img width="555" height="720" alt="image" src="https://github.com/user-attachments/assets/a8177fb2-1e1d-43ad-b5ef-d2887fd4e53e" />
 
-Ссылка на репозиторий GitHub:
-https://github.com/EmptyQwazar/Laboratory-Work-No.-1-2026-..git
+
+
